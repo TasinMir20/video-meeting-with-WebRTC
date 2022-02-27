@@ -1,0 +1,21 @@
+{
+	"name": "video-meeting",
+	"version": "1.0.0",
+	"description": "",
+	"author": "",
+	"license": "ISC",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"dependencies": {
+		"ejs": "^3.1.3",
+		"express": "^4.17.1",
+		"socket.io": "^4.4.1",
+		"uuid": "^8.1.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
